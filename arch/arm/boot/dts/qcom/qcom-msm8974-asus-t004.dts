@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: GPL-2.0
+#include "qcom-msm8974.dtsi"
+#include "pm8841.dtsi"
+#include "pm8941.dtsi"
+#include <dt-bindings/input/input.h>
+#include <dt-bindings/leds/common.h>
+#include <dt-bindings/pinctrl/qcom,pmic-gpio.h>
+
+/ {
+	model = "Qualcomm MSM 8974v2.0/1 ER1 CDP";
+	compatible = "qcom,msm8974-cdp", "qcom,msm8974", "qcom,cdp";
+	chassis-type = "handset";
+};
